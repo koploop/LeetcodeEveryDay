@@ -1,5 +1,7 @@
 //: Playground - noun: a place where people can play
 
+// https://segmentfault.com/a/1190000002986095
+
 import UIKit
 
 var str = "Hello, playground"
