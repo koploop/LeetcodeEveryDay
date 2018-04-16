@@ -8,5 +8,27 @@
 
 import Foundation
 
+print("\n==================\n")
+
+// 001
+//LeetCode_001.test()
+
+// 001
+//LeetCode_002.test()
+
 // 003
-LeetCode_003.test()
+//LeetCode_003.test()
+
+// 007
+LeetCode_007.test()
+
+
+
+
+
+
+
+
+
+
+print("\n==================\n")

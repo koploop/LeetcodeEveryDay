@@ -10,7 +10,8 @@
 		ACCCA03B20846C630011BF37 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA03A20846C630011BF37 /* main.swift */; };
 		ACCCA04420846CC20011BF37 /* LeetCode_003.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCCA04320846CC20011BF37 /* LeetCode_003.swift */; };
 		ACE3A0E720846D870036308C /* LeetCode_002.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3A0E620846D870036308C /* LeetCode_002.swift */; };
-		ACE3A0E920846D990036308C /* LeetCode-001.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3A0E820846D990036308C /* LeetCode-001.swift */; };
+		ACE3A0E920846D990036308C /* LeetCode_001.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3A0E820846D990036308C /* LeetCode_001.swift */; };
+		ACE3A0EB20847F090036308C /* LeetCode_007.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE3A0EA20847F090036308C /* LeetCode_007.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,7 +31,8 @@
 		ACCCA03A20846C630011BF37 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ACCCA04320846CC20011BF37 /* LeetCode_003.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_003.swift; sourceTree = "<group>"; };
 		ACE3A0E620846D870036308C /* LeetCode_002.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_002.swift; sourceTree = "<group>"; };
-		ACE3A0E820846D990036308C /* LeetCode-001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode-001.swift"; sourceTree = "<group>"; };
+		ACE3A0E820846D990036308C /* LeetCode_001.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_001.swift; sourceTree = "<group>"; };
+		ACE3A0EA20847F090036308C /* LeetCode_007.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeetCode_007.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				ACCCA03A20846C630011BF37 /* main.swift */,
-				ACE3A0E820846D990036308C /* LeetCode-001.swift */,
+				ACE3A0E820846D990036308C /* LeetCode_001.swift */,
 				ACE3A0E620846D870036308C /* LeetCode_002.swift */,
 				ACCCA04320846CC20011BF37 /* LeetCode_003.swift */,
+				ACE3A0EA20847F090036308C /* LeetCode_007.swift */,
 			);
 			path = DebugProj;
 			sourceTree = "<group>";
@@ -129,7 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACE3A0E920846D990036308C /* LeetCode-001.swift in Sources */,
+				ACE3A0EB20847F090036308C /* LeetCode_007.swift in Sources */,
+				ACE3A0E920846D990036308C /* LeetCode_001.swift in Sources */,
 				ACCCA03B20846C630011BF37 /* main.swift in Sources */,
 				ACE3A0E720846D870036308C /* LeetCode_002.swift in Sources */,
 				ACCCA04420846CC20011BF37 /* LeetCode_003.swift in Sources */,

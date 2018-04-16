@@ -9,7 +9,7 @@
 import Cocoa
 
 /*
- * 两数相加问题
+ * 大树相加问题(两个链表倒序相加输出新链表)
  */
 
 class ListNode {
@@ -39,9 +39,15 @@ class LeetCode_002: NSObject {
             if let list2 = _l2 {
                 _l2 = list2.next
             }
-            print(current.val)
         }
         return pCurrent.next
+    }
+    
+    public static func printList(_ node: ListNode) {
+        print(node.val)
+        if let next = node.next {
+            printList(next)
+        }
     }
     
     public static func test() {
@@ -53,6 +59,7 @@ class LeetCode_002: NSObject {
         list2.next = ListNode(6)
         list2.next?.next = ListNode(4)
         
-        _ = addTwoNumbers(list1, list2)
+        let result = addTwoNumbers(list1, list2)
+        printList(result!)
     }
 }

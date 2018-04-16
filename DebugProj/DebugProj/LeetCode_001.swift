@@ -8,6 +8,10 @@
 
 import Cocoa
 
+/*
+ * 从数组中找出两个数相加等于目标值的元素
+ */
+
 class LeetCode_001: NSObject {
     
     // 暴力方法1: 时间复杂度: O(n2)
@@ -45,4 +49,17 @@ class LeetCode_001: NSObject {
     
     // 头尾双指针法
     // 头尾各一个指针,相加之和如果大于目标值,则尾部指针向前移一位,如果小于目标值,则头部指针向后移一位;
+    static func twoSum_3(_ nums:[Int], _ target:Int) -> [Int] {
+        return []
+    }
+    
+    
+    
+    static func test() {
+        let Array = [1,3,8,2,6,0]
+        let targetSum = 5
+        let result = LeetCode_001.twoSum_hashmap(Array, targetSum)
+        print("\(result) \n")
+    }
+    
 }
